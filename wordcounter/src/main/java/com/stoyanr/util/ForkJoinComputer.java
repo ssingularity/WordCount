@@ -28,7 +28,7 @@ import java.util.concurrent.RecursiveTask;
  * <p>
  * To use this class, simply instantiate it with the appropriate lambdas and then call its 
  * {@code compute} method:
- * <p>
+ * </p>
  * <pre>
  * // Calculate the sum of all integers from 1 to n, using 1000 as a threshold
  * new ForkJoinComputer<Integer>(n, 1000, 
